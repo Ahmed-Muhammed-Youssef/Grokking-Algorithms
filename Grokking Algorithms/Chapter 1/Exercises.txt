@@ -1,0 +1,13 @@
+﻿
+
+1.1 worst casse = log2(128) = 7 steps.
+
+1.2 worst casse = log2(256) = 8 steps.
+
+1.3 O(log(n)) for binary search
+
+1.4 O(n)
+
+1.5 O(n)
+
+1.6 O(n)

@@ -1,0 +1,33 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Grokking Algorithms/1.0.0": {
+        "runtime": {
+          "Grokking Algorithms.dll": {}
+        }
+      },
+      "Chapter 1/1.0.0": {
+        "runtime": {
+          "Chapter 1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Grokking Algorithms/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Chapter 1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
