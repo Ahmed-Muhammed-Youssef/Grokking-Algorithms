@@ -1,0 +1,13 @@
+﻿
+
+2.1 linked list
+
+2.2 linked list
+
+2.3 array
+
+2.4 it would take O(n) to insert a new user because of the shifting, if there's no spare contegious memory
+the whole memory will be copied to other locations which makes it slower.
+
+2.5 searching: the hypride data structure would be faster than linked list but slower than array.
+	insertion: the hypride data structure would be faster than arrays and as fast as linked lists.
