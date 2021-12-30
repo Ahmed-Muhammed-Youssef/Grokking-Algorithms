@@ -31,6 +31,16 @@
         "runtime": {
           "bin/placeholder/Chapter 3.dll": {}
         }
+      },
+      "Chapter 4/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Chapter 4.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chapter 4.dll": {}
+        }
       }
     }
   },
@@ -49,13 +59,19 @@
       "type": "project",
       "path": "../Chapter 3/Chapter 3.csproj",
       "msbuildProject": "../Chapter 3/Chapter 3.csproj"
+    },
+    "Chapter 4/1.0.0": {
+      "type": "project",
+      "path": "../Chapter 4/Chapter 4.csproj",
+      "msbuildProject": "../Chapter 4/Chapter 4.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "Chapter 1 >= 1.0.0",
       "Chapter 2 >= 1.0.0",
-      "Chapter 3 >= 1.0.0"
+      "Chapter 3 >= 1.0.0",
+      "Chapter 4 >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -93,6 +109,9 @@
             },
             "E:\\Programming\\C#\\my exercises solution\\Grokking Algorithms\\Grokking Algorithms\\Chapter 3\\Chapter 3.csproj": {
               "projectPath": "E:\\Programming\\C#\\my exercises solution\\Grokking Algorithms\\Grokking Algorithms\\Chapter 3\\Chapter 3.csproj"
+            },
+            "E:\\Programming\\C#\\my exercises solution\\Grokking Algorithms\\Grokking Algorithms\\Chapter 4\\Chapter 4.csproj": {
+              "projectPath": "E:\\Programming\\C#\\my exercises solution\\Grokking Algorithms\\Grokking Algorithms\\Chapter 4\\Chapter 4.csproj"
             }
           }
         }
