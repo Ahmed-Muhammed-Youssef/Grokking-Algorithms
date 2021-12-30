@@ -1,0 +1,9 @@
+﻿
+
+3.1 The greet function is called first, with name = maggie they both are pushed in the same call stack frame,
+then the greet function calls the greet2 function, with name = maggie. At this point, the greet function is in
+suspended state at the line in which greet2 is called.the current function call is the greet2 function. 
+after the greet2 function call completes, the greet function will resume.
+
+
+3.2 The stack will run out of free space eventually, which may cause a stack-overflow error.
