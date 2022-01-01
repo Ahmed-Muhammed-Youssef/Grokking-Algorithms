@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grokking Algorithms", "Grokking Algorithms\Grokking Algorithms.csproj", "{D6EA2466-65EC-4465-85C6-6E766ECD65A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grokking Algorithms", "Grokking Algorithms\Grokking Algorithms.csproj", "{D6EA2466-65EC-4465-85C6-6E766ECD65A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 1", "Chapter 1\Chapter 1.csproj", "{3BD6D4AF-74DB-4EA7-B95D-5A75F0E327DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter 1", "Chapter 1\Chapter 1.csproj", "{3BD6D4AF-74DB-4EA7-B95D-5A75F0E327DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 2", "Chapter 2\Chapter 2.csproj", "{C3F1828A-22E7-4FD5-82F2-762ED0D8D8FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter 2", "Chapter 2\Chapter 2.csproj", "{C3F1828A-22E7-4FD5-82F2-762ED0D8D8FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 3", "Chapter 3\Chapter 3.csproj", "{9686D4A0-05E8-4FD7-91D7-2C69AB4F8492}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter 3", "Chapter 3\Chapter 3.csproj", "{9686D4A0-05E8-4FD7-91D7-2C69AB4F8492}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 4", "Chapter 4\Chapter 4.csproj", "{4262AF0E-107F-429A-A0A5-20344CF1A99B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter 4", "Chapter 4\Chapter 4.csproj", "{4262AF0E-107F-429A-A0A5-20344CF1A99B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 5", "Chapter 5\Chapter 5.csproj", "{74DFA473-AC90-41EC-A14E-5239176BFE88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{4262AF0E-107F-429A-A0A5-20344CF1A99B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4262AF0E-107F-429A-A0A5-20344CF1A99B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4262AF0E-107F-429A-A0A5-20344CF1A99B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74DFA473-AC90-41EC-A14E-5239176BFE88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74DFA473-AC90-41EC-A14E-5239176BFE88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74DFA473-AC90-41EC-A14E-5239176BFE88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74DFA473-AC90-41EC-A14E-5239176BFE88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,13 @@
+﻿
+What are the factors that affecrs the performace of the Hash Table?
+
+1. Load Factor of A Hash Table: the ratio between the number of items per the total slots in the array.
+	note that, when the number of items grows (A good rule of thumb is, resize when your load factor is
+	greater than 0.7) we need to  resize the array (most of the time doupling the array size) then 
+	reinserting the items into the new hash.
+
+
+2. Hash Function: a good hash function distributes the values evenly over the array. A bad hash function
+	groups values together and produces a lot of collisions. the type of hashing algorithm is not usually
+	your concern but usually you should use the SHA algorithm.
+

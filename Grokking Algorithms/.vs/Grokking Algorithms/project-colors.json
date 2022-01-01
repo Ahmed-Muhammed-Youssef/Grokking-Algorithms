@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d6ea2466-65ec-4465-85c6-6e766ecd65a2": {
+      "ProjectGuid": "d6ea2466-65ec-4465-85c6-6e766ecd65a2",
+      "DisplayName": "Grokking Algorithms",
+      "ColorIndex": 0
+    },
+    "3bd6d4af-74db-4ea7-b95d-5a75f0e327dc": {
+      "ProjectGuid": "3bd6d4af-74db-4ea7-b95d-5a75f0e327dc",
+      "DisplayName": "Chapter 1",
+      "ColorIndex": 1
+    },
+    "c3f1828a-22e7-4fd5-82f2-762ed0d8d8fd": {
+      "ProjectGuid": "c3f1828a-22e7-4fd5-82f2-762ed0d8d8fd",
+      "DisplayName": "Chapter 2",
+      "ColorIndex": 2
+    },
+    "9686d4a0-05e8-4fd7-91d7-2c69ab4f8492": {
+      "ProjectGuid": "9686d4a0-05e8-4fd7-91d7-2c69ab4f8492",
+      "DisplayName": "Chapter 3",
+      "ColorIndex": 3
+    },
+    "4262af0e-107f-429a-a0a5-20344cf1a99b": {
+      "ProjectGuid": "4262af0e-107f-429a-a0a5-20344cf1a99b",
+      "DisplayName": "Chapter 4",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
