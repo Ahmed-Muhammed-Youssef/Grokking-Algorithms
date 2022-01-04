@@ -23,3 +23,7 @@ E:\Programming\C#\my exercises solution\Grokking Algorithms\Grokking Algorithms\
 E:\Programming\C#\my exercises solution\Grokking Algorithms\Grokking Algorithms\Grokking Algorithms\bin\Debug\net5.0\Chapter 3.pdb
 E:\Programming\C#\my exercises solution\Grokking Algorithms\Grokking Algorithms\Grokking Algorithms\bin\Debug\net5.0\Chapter 4.dll
 E:\Programming\C#\my exercises solution\Grokking Algorithms\Grokking Algorithms\Grokking Algorithms\bin\Debug\net5.0\Chapter 4.pdb
+E:\Programming\C#\my exercises solution\Grokking Algorithms\Grokking Algorithms\Grokking Algorithms\bin\Debug\net5.0\Chapter 5.dll
+E:\Programming\C#\my exercises solution\Grokking Algorithms\Grokking Algorithms\Grokking Algorithms\bin\Debug\net5.0\Chapter 6.dll
+E:\Programming\C#\my exercises solution\Grokking Algorithms\Grokking Algorithms\Grokking Algorithms\bin\Debug\net5.0\Chapter 5.pdb
+E:\Programming\C#\my exercises solution\Grokking Algorithms\Grokking Algorithms\Grokking Algorithms\bin\Debug\net5.0\Chapter 6.pdb
