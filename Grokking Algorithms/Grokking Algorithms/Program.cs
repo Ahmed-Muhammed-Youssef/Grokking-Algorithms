@@ -3,6 +3,7 @@ using Chapter_2;
 using Chapter_3;
 using Chapter_4;
 using Chapter_6;
+using Chapter_7;
 using System;
 using System.Collections.Generic;
 
@@ -48,16 +49,6 @@ namespace Grokking_Algorithms
             }*/
 
             //Chapter 6
-            //var vertices = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-            var g = new Dictionary<int, HashSet<int>>(){
-                { 1, new HashSet<int>(){ 2, 3} },
-                { 2, new HashSet<int>(){ 4 } },
-                { 3, new HashSet<int>(){ 5, 6 } },
-                { 4, new HashSet<int>(){ 7 } },
-                { 5, new HashSet<int>(){ 7,8,6 } },
-                { 8, new HashSet<int>(){ 9 } },
-                { 9, new HashSet<int>(){ 10 } }
-            };
             //all the arrows are pointing downwords
             // 1
             // | \
@@ -71,10 +62,22 @@ namespace Grokking_Algorithms
             //    |
             //    10
 
-           /* Graph<int> graph = new Graph<int>(g);
+            /* var g = new Dictionary<int, HashSet<int>>(){
+                 { 1, new HashSet<int>(){ 2, 3} },
+                 { 2, new HashSet<int>(){ 4 } },
+                 { 3, new HashSet<int>(){ 5, 6 } },
+                 { 4, new HashSet<int>(){ 7 } },
+                 { 5, new HashSet<int>(){ 7,8,6 } },
+                 { 8, new HashSet<int>(){ 9 } },
+                 { 9, new HashSet<int>(){ 10 } }
+             };
+            Graph<int> graph = new Graph<int>(g);
 
-            var result = BreadthFirstSearch.Search(graph, 7, 10);
-            Console.WriteLine(result);*/
+             var result = BreadthFirstSearch.Search(graph, 7, 10);
+             Console.WriteLine(result);*/
+
+            //Test_7.Main();
+
         }
     }
 }

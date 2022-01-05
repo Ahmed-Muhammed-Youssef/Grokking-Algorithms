@@ -1,0 +1,12 @@
+E:\Programming\C#\my exercises solution\Grokking Algorithms\Grokking Algorithms\Chapter 7\bin\Debug\net5.0\Chapter 7.deps.json
+E:\Programming\C#\my exercises solution\Grokking Algorithms\Grokking Algorithms\Chapter 7\bin\Debug\net5.0\Chapter 7.dll
+E:\Programming\C#\my exercises solution\Grokking Algorithms\Grokking Algorithms\Chapter 7\bin\Debug\net5.0\ref\Chapter 7.dll
+E:\Programming\C#\my exercises solution\Grokking Algorithms\Grokking Algorithms\Chapter 7\bin\Debug\net5.0\Chapter 7.pdb
+E:\Programming\C#\my exercises solution\Grokking Algorithms\Grokking Algorithms\Chapter 7\obj\Debug\net5.0\Chapter 7.csproj.AssemblyReference.cache
+E:\Programming\C#\my exercises solution\Grokking Algorithms\Grokking Algorithms\Chapter 7\obj\Debug\net5.0\Chapter 7.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\C#\my exercises solution\Grokking Algorithms\Grokking Algorithms\Chapter 7\obj\Debug\net5.0\Chapter 7.AssemblyInfoInputs.cache
+E:\Programming\C#\my exercises solution\Grokking Algorithms\Grokking Algorithms\Chapter 7\obj\Debug\net5.0\Chapter 7.AssemblyInfo.cs
+E:\Programming\C#\my exercises solution\Grokking Algorithms\Grokking Algorithms\Chapter 7\obj\Debug\net5.0\Chapter 7.csproj.CoreCompileInputs.cache
+E:\Programming\C#\my exercises solution\Grokking Algorithms\Grokking Algorithms\Chapter 7\obj\Debug\net5.0\Chapter 7.dll
+E:\Programming\C#\my exercises solution\Grokking Algorithms\Grokking Algorithms\Chapter 7\obj\Debug\net5.0\ref\Chapter 7.dll
+E:\Programming\C#\my exercises solution\Grokking Algorithms\Grokking Algorithms\Chapter 7\obj\Debug\net5.0\Chapter 7.pdb
