@@ -1,17 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Chapter_7
 {
-    public class WeightedGraph <T>
+    public class WeightedGraph<T>
     {
         public Dictionary<T, Dictionary<T, int>> AdjacencyList { get; set; }
         public int NodeCount { get; private set; }
 
-        public WeightedGraph() { 
+        public WeightedGraph()
+        {
             AdjacencyList = new Dictionary<T, Dictionary<T, int>>();
         }
         public WeightedGraph(Dictionary<T, Dictionary<T, int>> list)

@@ -7,7 +7,7 @@ namespace Chapter_6
     // Implementing graph data structure using adjacency list
     // A Hash table with node as a key and the value is a hash set of neighbouring nodes.
     // This graph is mainly a directed graph but it can also be used as an undirected graph.
-    public class Graph <T>
+    public class Graph<T>
     {
         public int NodeCount { get; private set; } = 0;
         public Dictionary<T, HashSet<T>> AdjacencyList { get; } = new Dictionary<T, HashSet<T>>();

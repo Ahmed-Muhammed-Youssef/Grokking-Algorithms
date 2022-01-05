@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace Chapter_7
 {
@@ -16,7 +15,7 @@ namespace Chapter_7
      */
     public static class Dijkstra
     {
-        public static List<string> FindPath (string startNode, string target, WeightedGraph<string> weightedGraph)
+        public static List<string> FindPath(string startNode, string target, WeightedGraph<string> weightedGraph)
         {
             Dictionary<string, string> parents = new Dictionary<string, string>();
             Dictionary<string, int> costs = new Dictionary<string, int>();
@@ -25,7 +24,7 @@ namespace Chapter_7
             costs.Add(startNode, 0);
             string node = startNode;
 
-            while (node!= null && node!= target)
+            while (node != null && node != target)
             {
                 done.Add(node);
                 int currentNodeCost = costs[node];
@@ -43,7 +42,7 @@ namespace Chapter_7
             while (true)
             {
                 result.Add(node);
-                if(!parents.TryGetValue(node, out node))
+                if (!parents.TryGetValue(node, out node))
                 {
                     break;
                 }
@@ -84,7 +83,7 @@ namespace Chapter_7
                 if (costs[neighbouringNode.Key] > curretnTotalCost)
                 {
                     costs[neighbouringNode.Key] = curretnTotalCost;
-                    parents[neighbouringNode.Key] =  node;
+                    parents[neighbouringNode.Key] = node;
                 }
             }
         }

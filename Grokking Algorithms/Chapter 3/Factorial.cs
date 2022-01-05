@@ -4,7 +4,7 @@ namespace Chapter_3
 {
     public static class Factorial
     {
-        public static int CalculateRecursively(int n) 
+        public static int CalculateRecursively(int n)
         {
             if (n < 0)
             {
@@ -24,7 +24,7 @@ namespace Chapter_3
             {
                 throw new InvalidOperationException("you can't pass a negative value");
             }
-            else if(n < 2)
+            else if (n < 2)
             {
                 return 1;
             }

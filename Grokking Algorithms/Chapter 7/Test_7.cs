@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Chapter_7
 {
@@ -10,6 +7,7 @@ namespace Chapter_7
     {
         public static void Main()
         {
+            // Chapter 7: Graphs and Dijkstra algorithm
             Dictionary<string, Dictionary<string, int>> g0 = new Dictionary<string, Dictionary<string, int>>(){
                 { "start", new Dictionary<string,int>(){ { "a", 6 }, { "b", 2 } } },
                 { "a", new Dictionary<string,int>(){ { "fin", 1 } } },
@@ -26,11 +24,7 @@ namespace Chapter_7
                 { "d", new Dictionary<string,int>(){ { "finish", 1 } } },
                 { "finish", new Dictionary<string,int>() }
             };
-
-
             Exercise1(g1);
-
-            Console.WriteLine("Exercise 7.2 solution");
         }
 
         private static void Exercise1(Dictionary<string, Dictionary<string, int>> g1)
@@ -43,7 +37,6 @@ namespace Chapter_7
             {
                 Console.WriteLine(item);
             }
-            Console.WriteLine(new string('=', 50));
         }
     }
 }

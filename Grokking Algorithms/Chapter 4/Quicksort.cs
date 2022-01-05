@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Chapter_4
 {
@@ -19,7 +15,7 @@ namespace Chapter_4
         */
         public static List<int> SortRec(List<int> li)
         {
-            if(li.Count < 2)
+            if (li.Count < 2)
             {
                 return li;
             }
@@ -30,11 +26,11 @@ namespace Chapter_4
                 List<int> bigger = new List<int>();
                 for (int i = 0; i < li.Count; i++)
                 {
-                    if(i == pivot)
+                    if (i == pivot)
                     {
                         continue;
                     }
-                    if(li[i] > li[pivot])
+                    if (li[i] > li[pivot])
                     {
                         bigger.Add(li[i]);
                     }
@@ -52,7 +48,7 @@ namespace Chapter_4
         }
         private static int PickPivot(List<int> li)
         {
-            return li.Count/2; // a good pivot reduces the call stack height.
+            return li.Count / 2; // a good pivot reduces the call stack height.
         }
     }
 }

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Chapter_1
+﻿namespace Chapter_1
 {
     public static class BinarySearch
     {
@@ -13,19 +11,19 @@ namespace Chapter_1
          * Memory:
          * O(1)
         */
-        public static int Search (int[] arr, int key)
+        public static int Search(int[] arr, int key)
         {
             int left = 0;
             int right = arr.Length - 1;
             int middle;
             while (left <= right)
             {
-                middle = (left + right)/2;
-                if(arr[middle] == key)
+                middle = (left + right) / 2;
+                if (arr[middle] == key)
                 {
                     return middle;
                 }
-                else if(arr[middle] < key)
+                else if (arr[middle] < key)
                 {
                     left = middle + 1;
                 }

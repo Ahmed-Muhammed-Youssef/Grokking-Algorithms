@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Chapter_2
+﻿namespace Chapter_2
 {
     public static class SelectionSort
     {
@@ -19,7 +17,7 @@ namespace Chapter_2
                 int maxValIndex = i;
                 for (int j = i + 1; j < arr.Length; j++)
                 {
-                    if(arr[j] > arr[maxValIndex])
+                    if (arr[j] > arr[maxValIndex])
                     {
                         maxValIndex = j;
                     }

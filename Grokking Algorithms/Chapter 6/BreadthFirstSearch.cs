@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Chapter_6
 {
@@ -29,7 +25,7 @@ namespace Chapter_6
             }
             foreach (var edge in graph.AdjacencyList[root])
             {
-                if( RecursiveSearch(graph, edge, target, visited))
+                if (RecursiveSearch(graph, edge, target, visited))
                 {
                     return true;
                 }
@@ -39,13 +35,13 @@ namespace Chapter_6
         public static bool Search<T>(Graph<T> graph, T root, T target, Stack<T> visited = null)
         {
             Queue<T> searchQueue = new Queue<T>();
-            if(visited == null)
+            if (visited == null)
             {
-                visited= new Stack<T>();
+                visited = new Stack<T>();
             }
             visited.Push(root);
             searchQueue.Enqueue(root);
-            while(searchQueue.Count > 0)
+            while (searchQueue.Count > 0)
             {
                 T currentElement = searchQueue.Dequeue();
                 visited.Push(currentElement);
