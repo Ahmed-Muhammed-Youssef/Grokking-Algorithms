@@ -14,6 +14,7 @@
     <ProjectReference Include="..\Chapter 5\Chapter 5.csproj" />
     <ProjectReference Include="..\Chapter 6\Chapter 6.csproj" />
     <ProjectReference Include="..\Chapter 7\Chapter 7.csproj" />
+    <ProjectReference Include="..\Chapter 8\Chapter 8.csproj" />
   </ItemGroup>
 
 </Project>

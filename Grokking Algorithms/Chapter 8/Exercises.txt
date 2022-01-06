@@ -1,0 +1,25 @@
+﻿
+
+8.1 A greedy strategy would be to pick the largest box that will fit in the remaining space, and repeat until you can’t pack any 
+more boxes. No, this won’t give you the optimal solution.
+
+
+8.2 we can peritoze the items with a bigger ratio between the point value and the time it takes.
+
+
+8.3 No
+
+
+8.4 Yes
+
+
+8.5 Yes
+
+
+8.6 Yes
+
+
+8.7 Yes
+
+
+8.8 Yes

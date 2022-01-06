@@ -45,6 +45,11 @@
         "runtime": {
           "Chapter 7.dll": {}
         }
+      },
+      "Chapter 8/1.0.0": {
+        "runtime": {
+          "Chapter 8.dll": {}
+        }
       }
     }
   },
@@ -85,6 +90,11 @@
       "sha512": ""
     },
     "Chapter 7/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Chapter 8/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

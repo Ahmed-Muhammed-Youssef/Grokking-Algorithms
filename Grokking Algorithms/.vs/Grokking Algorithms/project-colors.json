@@ -30,7 +30,22 @@
       "ProjectGuid": "74dfa473-ac90-41ec-a14e-5239176bfe88",
       "DisplayName": "Chapter 5",
       "ColorIndex": 5
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "f7ed9042-0cf7-4ea7-ae36-2448cdba6be1": {
+      "ProjectGuid": "f7ed9042-0cf7-4ea7-ae36-2448cdba6be1",
+      "DisplayName": "Chapter 6",
+      "ColorIndex": 6
+    },
+    "c03ee1b6-1faf-4aca-ae5f-252a65243260": {
+      "ProjectGuid": "c03ee1b6-1faf-4aca-ae5f-252a65243260",
+      "DisplayName": "Chapter 7",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 8
 }

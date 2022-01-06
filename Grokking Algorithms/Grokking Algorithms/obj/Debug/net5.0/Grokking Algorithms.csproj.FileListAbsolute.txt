@@ -29,3 +29,5 @@ E:\Programming\C#\my exercises solution\Grokking Algorithms\Grokking Algorithms\
 E:\Programming\C#\my exercises solution\Grokking Algorithms\Grokking Algorithms\Grokking Algorithms\bin\Debug\net5.0\Chapter 6.pdb
 E:\Programming\C#\my exercises solution\Grokking Algorithms\Grokking Algorithms\Grokking Algorithms\bin\Debug\net5.0\Chapter 7.dll
 E:\Programming\C#\my exercises solution\Grokking Algorithms\Grokking Algorithms\Grokking Algorithms\bin\Debug\net5.0\Chapter 7.pdb
+E:\Programming\C#\my exercises solution\Grokking Algorithms\Grokking Algorithms\Grokking Algorithms\bin\Debug\net5.0\Chapter 8.dll
+E:\Programming\C#\my exercises solution\Grokking Algorithms\Grokking Algorithms\Grokking Algorithms\bin\Debug\net5.0\Chapter 8.pdb
