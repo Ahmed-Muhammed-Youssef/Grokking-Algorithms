@@ -1,0 +1,19 @@
+﻿
+
+
+10.1 normalization. You look at the average rating for each person and use it to 
+scale their ratings. For example, you might notice that Pinky’s average rating is
+3, whereas Yogi’s average rating is 3.5. So you bump up Pinky’s ratings a little,
+until her average rating is 3.5 as well. Then you can compare their ratings on the 
+same scale.
+
+
+10.2 You could give more weight to the ratings of the influencers when using KNN.
+Suppose you have three neighbors: Joe, Dave, and Wes Anderson (an influencer). 
+They rated Caddyshack a 3, a 4, and a 5, respectively. Instead of just taking the 
+average of their ratings (3 + 4 + 5 / 3 = 4 stars), you could give Wes Anderson’s
+rating more weight: 3 + 4 + 5 + 5 + 5 / 5 = 4.4 stars.
+
+
+10.3 It's too low for a platform with many users It can easily mess up, the rule of
+thumb is if you have N users you should user sqrt(N).
